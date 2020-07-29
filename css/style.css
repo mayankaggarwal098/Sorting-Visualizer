@@ -1,0 +1,72 @@
+
+*{
+    font-family: cursive;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bolder;
+    
+}
+
+nav{
+    background-color: aqua;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding:  3%;
+    grid-gap:10%;
+}
+
+nav .algo-inputs{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 5%;
+}
+
+nav .algo-inputs #a_size{
+    padding: 5% 0%;
+}
+
+
+nav .algo-inputs #a_speed{
+    padding: 5% 0%;
+}
+
+nav .algo-inputs #a_generate{
+    padding: 2%;
+}
+nav .algo-inputs #a_generate{
+    cursor: pointer;
+}
+
+nav .header-right .main-heading{
+    font-size: xxx-large;
+    padding: 5%;
+}
+
+nav .header-right .algo-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 4px;
+}
+
+nav .header-right .algo-buttons button{
+    padding: 2%;
+}
+
+nav .header-right .algo-buttons button:hover{
+    cursor: pointer;
+}
+
+section{
+   margin: 0% 10%;
+   
+}
+
+section #array_container{
+
+    display: flex;
+    height: 60vh;
+    align-items: flex-end;
+    background-color: thistle;
+}
+

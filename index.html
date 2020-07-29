@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+    <head>
+        
+        <title> Sorting Visualizer</title>
+        <link rel="stylesheet" href="./css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="algo-inputs">
+                    <p>Size of Array :  </p>
+                    <input type="range" id="a_size" min=20 max=200 step=1 value=110>
+                    <p>Speed : </p>
+                    <input type="range" id="a_speed" min=1 max=6 step=1 >
+                    
+                    <button id="a_generate">Generate New Array </button>
+                </div>
+
+                <div class="header-right">
+                    <p class="main-heading">Sorting Visualizer</p>
+                    <div class="algo-buttons">
+                        <button>Bubble</button>
+                        <button>Selection</button>
+                        <button>Heap</button>
+                        <button>Merge</button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <section>
+            
+            <div id="array_container"> </div>
+            
+
+        </section>
+    
+        <script src="./scripts/mainscript.js"></script>
+        <script src="./scripts/Bubble_Sort.js"></script>
+        <script src="./scripts/Merge_Sort.js"></script>
+        <script src="./scripts/Selection_Sort.js"></script>
+        <script src="./scripts/Heap_Sort.js"></script>
+
+    </body>
+</html>
